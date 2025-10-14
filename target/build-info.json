@@ -1,0 +1,57 @@
+{
+  "version" : "1.0.1",
+  "name" : "fan",
+  "number" : "1760436476759",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.9.11"
+  },
+  "agent" : {
+    "name" : "/",
+    "version" : "3.9.11"
+  },
+  "started" : "2025-10-14T18:07:56.758+0800",
+  "durationMillis" : 933,
+  "vcs" : [ ],
+  "modules" : [ {
+    "properties" : {
+      "maven.compiler.target" : "17",
+      "maven.compiler.source" : "17"
+    },
+    "type" : "maven",
+    "id" : "com.example:fan:1.0-SNAPSHOT",
+    "repository" : "fan-maven",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "9801a2ce6c13aca46b27d9c4199bfe21e5fdfbf4",
+      "sha256" : "eb1988e67f8e047a0f75a7eba08141b195983ba46b0ff0122d4a3e1493f7faa0",
+      "md5" : "dd3630a19d051550449494d645f28cec",
+      "name" : "fan-1.0-SNAPSHOT.jar",
+      "path" : "com/example/fan/1.0-SNAPSHOT/fan-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "a0c971529ffd538ed498767db409332441c30ee8",
+      "sha256" : "e7366a5afc29533f23642da4891f9707b13ac7edd0d1fdacc11aae24d474c9f0",
+      "md5" : "0cac2193dff3bba709216f91b54f2372",
+      "name" : "fan-1.0-SNAPSHOT.pom",
+      "path" : "com/example/fan/1.0-SNAPSHOT/fan-1.0-SNAPSHOT.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+      "sha256" : "5fca136503f86ecc6cb61fbd17b137d59e56b45c7a5494e6b8fd3cabd4697fbd",
+      "md5" : "d862e30ff6b5d78264677dcd6507abb8",
+      "id" : "org.apache.commons:commons-compress:1.8.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.example:fanbase:1.0-SNAPSHOT", "com.example:fan:1.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "91d3a007cca21c9673e962f91f2d8e65a788133d",
+      "sha256" : "f2e8e03a4c5baddac1f5542aa6adfb9362eb673043ee272412b2e94753f43ebb",
+      "md5" : "aed27bbf29fe6265dfd85a69abd8713f",
+      "id" : "com.example:fanbase:1.0-SNAPSHOT",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.example:fan:1.0-SNAPSHOT" ] ]
+    } ]
+  } ]
+}

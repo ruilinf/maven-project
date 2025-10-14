@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+    serverId: demo
+    snapshotRepo: fan-maven
+    releaseRepo: fan-maven
+deployer:
+    serverId: demo
+    snapshotRepo: fan-maven
+    releaseRepo: fan-maven
