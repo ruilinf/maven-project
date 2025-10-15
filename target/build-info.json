@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "fan",
-  "number" : "1760518714208",
+  "number" : "1760521820625",
   "buildAgent" : {
     "name" : "Maven",
     "version" : "3.9.11"
@@ -10,8 +10,8 @@
     "name" : "/",
     "version" : "3.9.11"
   },
-  "started" : "2025-10-15T16:58:34.207+0800",
-  "durationMillis" : 3589,
+  "started" : "2025-10-15T17:50:20.624+0800",
+  "durationMillis" : 1071,
   "vcs" : [ ],
   "modules" : [ {
     "properties" : {
@@ -23,9 +23,9 @@
     "repository" : "fan-maven",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "864201abd089c497342dce0bc640d02a9f65ec75",
-      "sha256" : "c03ef7a554e898811a8d67fa898ca6ed037f5c4c1ab7d4c13b69f7e38891e63d",
-      "md5" : "0c4d33e4140171625daefb615498ea1a",
+      "sha1" : "ef6d06821c2171949b9a417d3abbaed8a076083e",
+      "sha256" : "8a1a4511564d3e4c983ca034bfe186a8f574d19c98b26cfb12b35349b502fe2c",
+      "md5" : "fa943be7a3f44e98ce7f497b1963bbff",
       "name" : "fan-1.0-SNAPSHOT.jar",
       "path" : "com/example/fan/1.0-SNAPSHOT/fan-1.0-SNAPSHOT.jar"
     }, {
@@ -54,9 +54,9 @@
       "requestedBy" : [ [ "com.example:fanbase:1.0-SNAPSHOT", "com.example:fan:1.0-SNAPSHOT" ] ]
     }, {
       "type" : "jar",
-      "sha1" : "91d3a007cca21c9673e962f91f2d8e65a788133d",
-      "sha256" : "f2e8e03a4c5baddac1f5542aa6adfb9362eb673043ee272412b2e94753f43ebb",
-      "md5" : "aed27bbf29fe6265dfd85a69abd8713f",
+      "sha1" : "863e8cfd5879b0ed7205b201af5ea99878fba5da",
+      "sha256" : "eab087dcd067a368dea1d0f4c57cf0a1977bb17f183b1fe3ea1f779c20c1b24b",
+      "md5" : "926121a3fbac92a2049896e02143b638",
       "id" : "com.example:fanbase:1.0-SNAPSHOT",
       "scopes" : [ "compile" ],
       "requestedBy" : [ [ "com.example:fan:1.0-SNAPSHOT" ] ]
