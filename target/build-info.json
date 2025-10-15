@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "fan",
-  "number" : "1760436476759",
+  "number" : "1760518714208",
   "buildAgent" : {
     "name" : "Maven",
     "version" : "3.9.11"
@@ -10,8 +10,8 @@
     "name" : "/",
     "version" : "3.9.11"
   },
-  "started" : "2025-10-14T18:07:56.758+0800",
-  "durationMillis" : 933,
+  "started" : "2025-10-15T16:58:34.207+0800",
+  "durationMillis" : 3589,
   "vcs" : [ ],
   "modules" : [ {
     "properties" : {
@@ -23,20 +23,28 @@
     "repository" : "fan-maven",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "9801a2ce6c13aca46b27d9c4199bfe21e5fdfbf4",
-      "sha256" : "eb1988e67f8e047a0f75a7eba08141b195983ba46b0ff0122d4a3e1493f7faa0",
-      "md5" : "dd3630a19d051550449494d645f28cec",
+      "sha1" : "864201abd089c497342dce0bc640d02a9f65ec75",
+      "sha256" : "c03ef7a554e898811a8d67fa898ca6ed037f5c4c1ab7d4c13b69f7e38891e63d",
+      "md5" : "0c4d33e4140171625daefb615498ea1a",
       "name" : "fan-1.0-SNAPSHOT.jar",
       "path" : "com/example/fan/1.0-SNAPSHOT/fan-1.0-SNAPSHOT.jar"
     }, {
       "type" : "pom",
-      "sha1" : "a0c971529ffd538ed498767db409332441c30ee8",
-      "sha256" : "e7366a5afc29533f23642da4891f9707b13ac7edd0d1fdacc11aae24d474c9f0",
-      "md5" : "0cac2193dff3bba709216f91b54f2372",
+      "sha1" : "22844c94d9bef24b48c14e987a320ebc45139fc2",
+      "sha256" : "2285f5869acaabc8f3bccb846d20ecdedd4d87ada9db3faa75a6498dd4b18a1a",
+      "md5" : "6889eda42da0cd8af286bd56b828eca0",
       "name" : "fan-1.0-SNAPSHOT.pom",
       "path" : "com/example/fan/1.0-SNAPSHOT/fan-1.0-SNAPSHOT.pom"
     } ],
     "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "5959582d97d8b61f4d154ca9e495aafd16726e34",
+      "sha256" : "c658ea360a70faeeadb66fb3c90a702e4142a0ab7768f9ae9828678e0d9ad4dc",
+      "md5" : "69ca51af4e9a67a1027a7f95b52c3e8f",
+      "id" : "javax.servlet:servlet-api:2.5",
+      "scopes" : [ "provided" ],
+      "requestedBy" : [ [ "com.example:fan:1.0-SNAPSHOT" ] ]
+    }, {
       "type" : "jar",
       "sha1" : "a698750c16740fd5b3871425f4cb3bbaa87f529d",
       "sha256" : "5fca136503f86ecc6cb61fbd17b137d59e56b45c7a5494e6b8fd3cabd4697fbd",
